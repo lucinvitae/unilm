@@ -14,6 +14,7 @@ setup(
     packages=find_packages(exclude=("configs", "tests")),
     python_requires=">=3.6",
     install_requires=[
+        "numpy",
         "transformers>=4.2.1",
         "tensorboardX>=2.0",
         "lxml>=4.5.1",
